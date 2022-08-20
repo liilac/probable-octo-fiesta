@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<popcorn>
+  <chattimeline in="2.1" direction="down" name="James Waldock" message="Hi all." target="chat"/>
+  <chattimeline in="27.1" direction="down" name="Andrew Pam" message="It's also used with AWS, yes?" target="chat"/>
+  <chattimeline in="34.2" direction="down" name="David Neil" message="Yes!" target="chat"/>
+  <chattimeline in="49.8" direction="down" name="Russell Coker" message="My employer uses Terraform on AWS" target="chat"/>
+  <chattimeline in="66.6" direction="down" name="Andrew Pam" message="I believe mine (Block) uses it on both GC and AWS" target="chat"/>
+  <chattimeline in="148.6" direction="down" name="Russell Coker" message="What is mutable vs immutable infrastructure?" target="chat"/>
+  <chattimeline in="204.2" direction="down" name="Yifei Zhan" message="I wonder what&#x2019;s the relationship between terraform and cloud-init?" target="chat"/>
+  <chattimeline in="468.6" direction="down" name="David Neil" message="Is HashiCorp part of Google?" target="chat"/>
+  <chattimeline in="473.9" direction="down" name="Russell Coker" message="Is the plan that we run Terraform on our own PCs? If so please post those apt and yum commands in chat." target="chat"/>
+  <chattimeline in="574.3" direction="down" name="Ian Brown" message="Ubuntu:&#10;sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install -y gnupg software-properties-common curl&#10;curl -fsSL &lt;a href=&quot;https://apt.releases.hashicorp.com/gpg&quot; rel=&quot;nofollow&quot;&gt;&lt;u&gt;https://apt.releases.hashicorp.com/gpg&lt;/u&gt;&lt;/a&gt; | sudo apt-key add -&#10;sudo apt-add-repository &quot;deb [arch=amd64] &lt;a href=&quot;https://apt.releases.hashicorp.com&quot; rel=&quot;nofollow&quot;&gt;&lt;u&gt;https://apt.releases.hashicorp.com&lt;/u&gt;&lt;/a&gt; $(lsb_release -cs) main&quot;&#10;sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install terraform&#10;Fedora:&#10;sudo dnf install -y dnf-plugins-core&#10;sudo dnf config-manager --add-repo &lt;a href=&quot;https://rpm.releases.hashicorp.com/fedora/hashicorp.repo&quot; rel=&quot;nofollow&quot;&gt;&lt;u&gt;https://rpm.releases.hashicorp.com/fedora/hashicorp.repo&lt;/u&gt;&lt;/a&gt;&#10;sudo dnf -y install terraform" target="chat"/>
+  <chattimeline in="680.4" direction="down" name="Andrew Pam" message="vmware is owned by Broadcom now isn't it?  Strange world!" target="chat"/>
+  <chattimeline in="724.8" direction="down" name="Russell Coker" message="curl -fsSL &lt;a href=&quot;https://apt.releases.hashicorp.com/gpg&quot; rel=&quot;nofollow&quot;&gt;&lt;u&gt;https://apt.releases.hashicorp.com/gpg&lt;/u&gt;&lt;/a&gt; | sudo tee /usr/local/terraform.key&#10;sudo apt-add-repository &quot;deb [arch=amd64 signed-by=/usr/local/terraform.key] &lt;a href=&quot;https://apt.releases.hashicorp.com&quot; rel=&quot;nofollow&quot;&gt;&lt;u&gt;https://apt.releases.hashicorp.com&lt;/u&gt;&lt;/a&gt; $(lsb_release -cs) main&quot;&#10;&#10;Something like the above is a better option for key management" target="chat"/>
+  <chattimeline in="881.2" direction="down" name="Russell Coker" message="deb [arch=amd64 signed-by=/usr/local/terraform.key] &lt;a href=&quot;https://apt.releases.hashicorp.com&quot; rel=&quot;nofollow&quot;&gt;&lt;u&gt;https://apt.releases.hashicorp.com&lt;/u&gt;&lt;/a&gt; bullseye main&#10;For Debian you can use the above as an apt repository" target="chat"/>
+  <chattimeline in="926.5" direction="down" name="Russell Coker" message="The people in my company who use Terraform haven't talked to me about it. Until recently I didn't know they were doing it." target="chat"/>
+  <chattimeline in="1017.9" direction="down" name="Russell Coker" message="Azure has an SDK and it ran on Linux last time I tried." target="chat"/>
+  <chattimeline in="1035.9" direction="down" name="Russell Coker" message="You can dump Azure config to JSON and import JSON for new services." target="chat"/>
+  <chattimeline in="1067.5" direction="down" name="David Neil" message="How to use Terraform with AWS? &lt;a href=&quot;https://www.whizlabs.com/blog/terraform-aws/&quot; rel=&quot;nofollow&quot;&gt;&lt;u&gt;https://www.whizlabs.com/blog/terraform-aws/&lt;/u&gt;&lt;/a&gt;" target="chat"/>
+  <chattimeline in="1202.1" direction="down" name="Russell Coker" message="When you create an AWS key in IAM (the AWS accounts system) you download a CSV file with the key data. So you create an alias &quot;aws-key&quot; or something that parses the CSV file and sets environment variables, on Debian set the debian_chroot variable to the name of the AWS key too so the shell prompt tells you which key is in use." target="chat"/>
+  <chattimeline in="1368.2" direction="down" name="David Neil" message="Welcome Dwight!" target="chat"/>
+  <chattimeline in="1516.9" direction="down" name="Russell Coker" message="On one of those big Dell servers as described a reboot will take about 3-4 minutes so if you have 3 reboots as part of the install process that's almost 1/4 of an hour used." target="chat"/>
+  <chattimeline in="1554.9" direction="down" name="Russell Coker" message="Why has it provisioned in every region?" target="chat"/>
+  <chattimeline in="1575.7" direction="down" name="Russell Coker" message="There's no cost to all those subnets?" target="chat"/>
+  <chattimeline in="1977.5" direction="down" name="Russell Coker" message="Software defined networking" target="chat"/>
+  <chattimeline in="2001.8" direction="down" name="Russell Coker" message="&lt;a href=&quot;https://en.wikipedia.org/wiki/Software-defined_networking&quot; rel=&quot;nofollow&quot;&gt;&lt;u&gt;https://en.wikipedia.org/wiki/Software-defined_networking&lt;/u&gt;&lt;/a&gt;" target="chat"/>
+  <chattimeline in="2022.7" direction="down" name="David Neil" message="Hood?bonnet" target="chat"/>
+  <chattimeline in="2071.5" direction="down" name="David Neil" message="Divided by the use of a common language!" target="chat"/>
+  <chattimeline in="2097.5" direction="down" name="Russell Coker" message="Given that it must be possible for multiple GCP customers to use the same address it makes sense for it to default to all of them having the same subnet, if nothing else it makes documentation easier." target="chat"/>
+  <chattimeline in="2223.1" direction="down" name="David Neil" message="Even for documentation purposes" target="chat"/>
+  <chattimeline in="2663.2" direction="down" name="Yifei Zhan" message="Debian?" target="chat"/>
+  <chattimeline in="2677.4" direction="down" name="Yifei Zhan" message="it shows debian license thingy there&#x2026;" target="chat"/>
+  <chattimeline in="2687.2" direction="down" name="Russell Coker" message="&lt;a href=&quot;https://cloud.google.com/container-optimized-os/docs&quot; rel=&quot;nofollow&quot;&gt;&lt;u&gt;https://cloud.google.com/container-optimized-os/docs&lt;/u&gt;&lt;/a&gt;" target="chat"/>
+  <chattimeline in="2714.9" direction="down" name="Andrew Pam" message="Thanks Russell" target="chat"/>
+  <chattimeline in="2772.9" direction="down" name="Russell Coker" message="Terraform destroy will only destroy things it created?" target="chat"/>
+  <chattimeline in="2838.8" direction="down" name="Russell Coker" message="AWS supports exporting config as json so importing that wouldn't be too difficult to write." target="chat"/>
+  <chattimeline in="2888.4" direction="down" name="Russell Coker" message="Is manually setting stuff up and importing it to Terraform considered a bad practice?" target="chat"/>
+  <chattimeline in="3143.3" direction="down" name="Yifei Zhan" message="So variables are all global..?" target="chat"/>
+  <chattimeline in="3634.6" direction="down" name="Russell Coker" message="Can it get the public IP and put it in DNS?" target="chat"/>
+  <chattimeline in="3667.8" direction="down" name="Russell Coker" message="Cloud VMs usually don't know their public IP" target="chat"/>
+  <chattimeline in="3710.0" direction="down" name="Russell Coker" message="Did you give it one?" target="chat"/>
+</popcorn>

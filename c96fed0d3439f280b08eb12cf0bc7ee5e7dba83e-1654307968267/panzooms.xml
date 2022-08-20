@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<recording id="panzoom_events">
+  <event timestamp="0.0">
+    <viewBox>-0.0 -0.0 1600.0 900.0</viewBox>
+  </event>
+  <event timestamp="9431.5">
+    <viewBox>-0.0 -0.0 1600.0 900.0</viewBox>
+  </event>
+  <event timestamp="9431.7">
+    <viewBox>-0.0 -0.0 1600.0 900.0</viewBox>
+  </event>
+  <event timestamp="13203.6">
+    <viewBox>-0.0 -0.0 1600.0 900.0</viewBox>
+  </event>
+  <event timestamp="13203.8">
+    <viewBox>-0.0 -0.0 1600.0 900.0</viewBox>
+  </event>
+</recording>

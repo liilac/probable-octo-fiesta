@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<recording>
+  <id>c96fed0d3439f280b08eb12cf0bc7ee5e7dba83e-1654307968267</id>
+  <state>published</state>
+  <published>true</published>
+  <start_time>1654307968267</start_time>
+  <end_time>1654322713012</end_time>
+  <participants>11</participants>
+  <raw_size>351168368</raw_size>
+  <meeting 
+  id="c96fed0d3439f280b08eb12cf0bc7ee5e7dba83e-1654307968267" externalId="liagebe021aaxrpajgi8xt73p8w5he4pkppormrr" name="FLOunder" breakout="false">
+</meeting>
+  <meta>
+    <bbb-origin-version>release-2.12.1</bbb-origin-version>
+    <meetingName>FLOunder</meetingName>
+    <meetingId>liagebe021aaxrpajgi8xt73p8w5he4pkppormrr</meetingId>
+    <gl-listed>true</gl-listed>
+    <bbb-origin>Greenlight</bbb-origin>
+    <isBreakout>false</isBreakout>
+    <bbb-origin-server-name>bbb2.nzoss.nz</bbb-origin-server-name>
+  </meta>
+  <playback>
+    <format>presentation</format>
+    <link>
+      https://bbb2.nzoss.nz/playback/presentation/2.3/c96fed0d3439f280b08eb12cf0bc7ee5e7dba83e-1654307968267
+    </link>
+    <processing_time>683851</processing_time>
+    <duration>3840206</duration>
+    <size>139919917</size>
+  </playback>
+</recording>
